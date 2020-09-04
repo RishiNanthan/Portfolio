@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import profile_pic from '../assets/profile.jpeg'
+import instagram from '../assets/instagram.png';
+import linkedin from '../assets/linkedin.png';
+import facebook from '../assets/facebook.jpg';
 
 
 class Home extends Component{
@@ -26,7 +29,9 @@ class Home extends Component{
                     </center>
                     <div className="designation">SOFTWARE ENGINEERING STUDENT</div>
                     <div className="icons">
-
+                        <img src={ facebook } alt="facebook" className="icon" />
+                        <img src={ instagram } alt="instagram" className="icon" />
+                        <img src={ linkedin } alt="linkedin" className="icon" />
                     </div>
                 </div>
             </div>

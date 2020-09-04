@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import profile_pic from '../assets/profile.jpeg'
 
 
 class Home extends Component{
@@ -12,7 +13,21 @@ class Home extends Component{
                     
                 </div>
                 <div className="home-col-3">
+                    <center><img src={profile_pic} alt="Profile"/></center>
+                    <div className="name">
+                        Rishi
+                    </div>
+                    <div className="name">
+                        Nanthan
+                    </div>
+                    <center>
+                        <div className="line">
+                        </div>
+                    </center>
+                    <div className="designation">SOFTWARE ENGINEERING STUDENT</div>
+                    <div className="icons">
 
+                    </div>
                 </div>
             </div>
         );

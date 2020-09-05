@@ -53,23 +53,31 @@
 
 .home{
   width: 100%;
+  display: grid;
+}
+
+.home-row-1{
+  grid-row: 1;
 }
 
 .home-col-1{
+  grid-column: 1;
   width: 40%;
   float: left;
   background-color: rgb(236, 227, 209);
   margin-top: 100px;
   padding-left: 30px;
   z-index: -1;
-  height: 700px;
+  min-height: 700px;
 }
 
 .home-col-2{
+  grid-column: 2;
   width: 50%;
+  padding-top: 80px;
   margin-top: 100px;
   float: right;
-  height: 700px;
+  min-height: 700px;
   z-index: -1;
 }
 
@@ -124,4 +132,67 @@
   display: inline-block;
   border-radius: 0%;
   padding: 0px 10%;
+}
+
+.home-col-2 .content{
+  padding-left: 10%;
+  padding-right: 40px;
+  display: grid;
+}
+
+.home-col-2 .content .start{
+  font-size: 35px;
+  font-weight: bolder;
+  padding-bottom: 30px;
+}
+
+.home-col-2 .content .intro{
+  font-weight: bolder;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.home-col-2 .content .button{
+  margin: 20px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 100px;
+  border-radius: 20px;
+  height: 35px;
+}
+
+.home-col-2 .content .content-body{
+  color: gray;
+  padding-bottom: 50px;
+}
+
+.home-col-2 .content .tail{
+  color: gray;
+}
+
+.home-row-2{
+  grid-row: 2;
+  width: 100%;
+}
+
+.footer{
+  width: 90%;
+  padding: 50px;
+  padding-top: 0px;
+  color: gray;
+  font-size: small;
+}
+
+.footer-content{
+  padding-left: 5%;
+  padding-right: 5%;
+  float: left;
+}
+
+.footer .links{
+  list-style: none;
+  float: right;
+  padding-right: 5%;
 }

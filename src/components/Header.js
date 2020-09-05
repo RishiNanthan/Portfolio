@@ -4,7 +4,8 @@ import React,{ Component } from 'react';
 class Header extends Component{
 
     constructor(props){
-        super();
+        super(props);
+        this.selected = props.selected;
     }
 
     render(){
@@ -15,16 +16,16 @@ class Header extends Component{
                     <span className="role"> SOFTWARE ENGINEERING STUDENT </span>
                 </li>
                 <div className="right">
-                    <li className="selected">
+                    <li className={ this.selected === "ABOUT ME" ? "selected": "" } >
                         ABOUT ME
                     </li>
-                    <li>
+                    <li className={ this.selected === "SKILLS" ? "selected": "" } >
                         SKILLS
                     </li>
-                    <li>
+                    <li className={ this.selected === "PROJECTS" ? "selected": "" } >
                         PROJECTS
                     </li>
-                    <li className="end">
+                    <li className={ this.selected === "CONTACT" ? "selected end": "end" }>
                         CONTACT
                     </li>
                 </div>

@@ -154,13 +154,20 @@
 
 .home-col-2 .content .button{
   margin: 20px;
-  background-color: blue;
-  color: white;
+  background-color:white;
+  color: gray;
+  border: 2px solid black;
   font-weight: bold;
-  border: none;
   width: 100px;
   border-radius: 20px;
   height: 35px;
+}
+
+.home-col-2 .content .button:hover{
+  transition: 1s;
+  background-color: blue;
+  border: none;
+  color: white;
 }
 
 .home-col-2 .content .content-body{
@@ -196,3 +203,63 @@
   float: right;
   padding-right: 5%;
 }
+
+.skills{
+  width: 100%;
+  min-height: 700px;
+  background:  rgb(236, 227, 209);
+  padding-top: 180px;
+}
+
+.skills .title{
+  font-size: 35px;
+  font-weight: bolder;
+  margin-bottom: 2%;
+}
+
+.skills .skillsets{
+  width: 70%;
+  margin: auto;
+  padding: 3%;
+  padding-top: 0%;
+}
+
+
+.skillset {
+  background-color: white;
+  padding: 50px;
+  margin-top: 3%;
+  box-shadow: 5px 5px 50px gray;
+}
+
+
+.skillset .skillset-title{
+  font-size: larger;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.skillset .skillset-skills{
+  padding: 30px 30px 30px 30px;
+}
+
+
+.skill .name{
+  font-weight: bolder;
+  margin-bottom: 5px;
+  color: gray;
+}
+
+.skill .percentage{
+  margin-left: 20px;
+  width: 40%;
+  border: 2px solid gray;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.skill .percentage .percentage-value{
+  background-color: greenyellow;
+  height: 10px;
+}
+

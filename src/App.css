@@ -9,6 +9,10 @@
   z-index: 3;
 }
 
+.header li a{
+  text-decoration: none;
+}
+
 .header li{
   list-style: none;
   padding-left: 10px;
@@ -16,6 +20,7 @@
   padding-bottom: 30px;
   font-weight: lighter;
 }
+
 
 .header .selected{
   color: blue;
@@ -246,20 +251,23 @@
 
 .skill .name{
   font-weight: bolder;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   color: gray;
 }
 
 .skill .percentage{
   margin-left: 20px;
   width: 40%;
-  border: 2px solid gray;
-  margin-bottom: 20px;
+  border: 2px solid green;
+  border-radius: 10px;
+  margin-bottom: 30px;
   display: inline-block;
+  box-shadow: 3px 3px 20px;
 }
 
 .skill .percentage .percentage-value{
   background-color: greenyellow;
+  border-radius: 10px;
   height: 10px;
 }
 

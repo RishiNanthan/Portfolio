@@ -1,4 +1,5 @@
 import React,{ Component } from 'react';
+import { Link } from 'react-router-dom';
 
 
 class Header extends Component{
@@ -17,16 +18,16 @@ class Header extends Component{
                 </li>
                 <div className="right">
                     <li className={ this.selected === "ABOUT ME" ? "selected": "" } >
-                        ABOUT ME
+                        <Link to="/">ABOUT ME</Link>
                     </li>
                     <li className={ this.selected === "SKILLS" ? "selected": "" } >
-                        SKILLS
+                        <Link to="/skills">SKILLS</Link>
                     </li>
                     <li className={ this.selected === "PROJECTS" ? "selected": "" } >
-                        PROJECTS
+                        <Link to="projects">PROJECTS</Link>
                     </li>
                     <li className={ this.selected === "CONTACT" ? "selected end": "end" }>
-                        CONTACT
+                        <Link to="contact">CONTACT</Link>
                     </li>
                 </div>
             </div>

@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import Footer from '../Footer';
+import { Link } from 'react-router-dom';
+
 import profile_pic from '../assets/profile.jpeg'
 import instagram from '../assets/instagram.png';
 import linkedin from '../assets/linkedin.png';
 import facebook from '../assets/facebook.jpg';
-import Footer from './Footer';
 
 
 class Home extends Component{
@@ -23,7 +25,8 @@ class Home extends Component{
                                 I'm Rishi Nanthan, Software Engineering Student.
                             </div>
                             <div className="buttons">
-                                <button className="button">SKILLS</button> <button className="button">PROJECTS</button>
+                            <Link to="/skills"><button className="button">SKILLS</button></Link>
+                            <Link to="/projects"><button className="button">PROJECTS</button></Link>
                             </div>
                             <div className="content-body">
                                 &nbsp;&nbsp;&nbsp;&nbsp;I'm pursuing final year of Bachelor's degree in Computer Science and

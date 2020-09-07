@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import Footer from '../Footer';
 import { Link } from 'react-router-dom';
 
-import profile_pic from '../assets/profile.jpeg'
-import instagram from '../assets/instagram.png';
-import linkedin from '../assets/linkedin.png';
-import facebook from '../assets/facebook.jpg';
+import profile_pic from './assets/profile.jpeg'
+import instagram from './assets/instagram.png';
+import linkedin from './assets/linkedin.png';
+import facebook from './assets/facebook.jpg';
 
 
 class Home extends Component{

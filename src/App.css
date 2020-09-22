@@ -1,4 +1,11 @@
 
+.square{
+  width: 13px;
+  height: 13px;
+  background: blue;
+  display: inline-block;
+}
+
 /*                                     Header                     */
 
 .header{
@@ -238,7 +245,7 @@
 }
 
 .skills .title{
-  font-size: 35px;
+  font-size: 25px;
   font-weight: bolder;
   margin-bottom: 2%;
 }
@@ -301,3 +308,19 @@
 /*                             PROJECTS                      */
 
 
+.projects{
+  padding-top: 180px;
+  width: 100%;
+  min-height: 700px;
+  background-color: rgb(236, 227, 209);
+}
+
+
+/*                            CONTACT                          */
+
+.contact{
+  padding-top: 180px;
+  width: 100%;
+  min-height: 500px;
+  background-color: rgb(236, 227, 209);
+}

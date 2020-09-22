@@ -126,7 +126,7 @@ class Skills extends Component{
         return (
             <div className="skills">
                 <div className="title">
-                    <center>Skills</center>
+                    <center><div className="square"></div>&nbsp;Skills</center>
                 </div>
                 <div className="skillsets">
                     { this.get_skillsets() }

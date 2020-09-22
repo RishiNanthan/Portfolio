@@ -13,7 +13,7 @@ class Header extends Component{
         return (
             <div className="header">
                 <li className="left start col-1">
-                    <span className="name"> Rishi Nanthan </span>/
+                    <div className="square"></div><span className="name"> Rishi Nanthan </span>/
                     <span className="role"> SOFTWARE ENGINEERING STUDENT </span>
                 </li>
                 <div className="right">

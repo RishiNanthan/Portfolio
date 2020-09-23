@@ -6,6 +6,14 @@
   display: inline-block;
 }
 
+.fa {
+  margin-top: 10px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
 /*                                     Header                     */
 
 .header{
@@ -315,6 +323,49 @@
   background-color: rgb(236, 227, 209);
 }
 
+.projects .title{
+  font-size: larger;
+}
+
+.projects-grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project{
+  box-sizing: border-box;
+  background-color: white;
+  margin: 5%;
+  padding: 1%;
+  width: 40%;
+  min-width: 250px;
+  float: left;
+  box-shadow: 5px 5px 20px black;
+  border: 2px groove white;
+}
+
+
+.project-image{
+  width: 90%;
+  height: 200px;
+}
+
+.project-title{
+  color: gray;
+}
+
+.project-description{
+  color: gray;
+}
+
+.project-technology{
+  color: rgb(184, 150, 87);
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
 
 /*                            CONTACT                          */
 
@@ -323,4 +374,30 @@
   width: 100%;
   min-height: 500px;
   background-color: rgb(236, 227, 209);
+}
+
+.contact .title{
+  font-size: larger;
+}
+
+.contact-content{
+  padding: 20px;
+  display: flexbox;
+  min-height: 400px;
+  width: 70%;
+}
+
+.contact-content .name{
+  font-size: larger;
+}
+
+
+.contact-content .address{
+  padding-left: 10%;
+  color: gray;
+  text-align: left;
+}
+
+.contact-content .mail{
+  color: gray;
 }

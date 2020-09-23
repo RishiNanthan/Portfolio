@@ -57,9 +57,9 @@ class Home extends Component{
                     </center>
                     <div className="designation">SOFTWARE ENGINEERING STUDENT</div>
                     <div className="icons">
-                        <img src={ facebook } alt="facebook" className="icon" />
-                        <img src={ instagram } alt="instagram" className="icon" />
-                        <img src={ linkedin } alt="linkedin" className="icon" />
+                        <a href="/"><i className="fa fa-facebook icon"></i></a>
+                        <a href="/"><i className="fa fa-instagram icon"></i></a>
+                        <a href="/"><i className="fa fa-linkedin icon"></i></a>
                     </div>
                 </div>
                 <div className="home-row-2">

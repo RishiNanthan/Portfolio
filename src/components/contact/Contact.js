@@ -10,7 +10,6 @@ class Contact extends Component{
                 <center><div className="title"><div className="square"></div> Contact </div></center>
                 <center>
                     <div className="contact-content">
-                        <hr />
                         <div className="name">
                             RISHI NANTHAN
                         </div>
@@ -34,15 +33,14 @@ class Contact extends Component{
                         </div>
                         <hr />
                         <div className="mail">
-                            Mail : rishinanthan344@gmail.com
+                            <a href="mailto:rishinanthan344@gmail.com">Mail : rishinanthan344@gmail.com</a>
                         </div>
                         <hr />
                         <div className="icons">
-                            <a href="/"><i className="fa fa-facebook icon"></i></a>
-                            <a href="/"><i className="fa fa-instagram icon"></i></a>
-                            <a href="/"><i className="fa fa-linkedin icon"></i></a>
+                            <a href="https://www.facebook.com/rishi.nanthan.7"><i className="fa fa-facebook icon"></i></a>
+                            <a href="https://www.instagram.com/rishi_nanthan_/"><i className="fa fa-instagram icon"></i></a>
+                            <a href="https://www.linkedin.com/in/rishi-nanthan-66402617b/"><i className="fa fa-linkedin icon"></i></a>
                         </div>
-                        <hr />
                     </div>
                 </center>
             </div>

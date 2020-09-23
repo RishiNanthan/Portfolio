@@ -25,8 +25,17 @@
   z-index: 3;
 }
 
+.header:hover{
+  box-shadow: 5px 5px 30px white;
+}
+
 .header li a{
+  color: gray;
   text-decoration: none;
+}
+
+.header li a:hover{
+  color: blue;
 }
 
 .header li{
@@ -111,6 +120,10 @@
   min-width: 200px;
   background-color: rgb(241, 241, 239);
   text-align: center;
+}
+
+.home-col-3:hover{
+  box-shadow: 5px 5px 50px 5px gray;
 }
 
 .home-col-3 img{
@@ -219,6 +232,7 @@
   font-size: small;
 }
 
+
 .footer-content{
   padding-left: 5%;
   padding-right: 5%;
@@ -239,7 +253,6 @@
 
 .footer .link:hover{
   color: blue;
-  font-weight: bold;
 }
 
 
@@ -346,6 +359,10 @@
   border: 2px groove white;
 }
 
+.project:hover{
+  box-shadow: -5px -5px 50px 5px gray;
+  transition: 0.5s;
+}
 
 .project-image{
   width: 90%;
@@ -381,14 +398,21 @@
 }
 
 .contact-content{
+  background-color: white;
+  margin-top: 30px;
   padding: 20px;
   display: flexbox;
-  min-height: 400px;
   width: 70%;
+  box-shadow: 1px 1px 10px;
+}
+
+.contact-content:hover{
+  box-shadow: 5px 5px 40px;  
 }
 
 .contact-content .name{
   font-size: larger;
+  color: blueviolet;
 }
 
 
@@ -398,6 +422,17 @@
   text-align: left;
 }
 
-.contact-content .mail{
-  color: gray;
+.contact-content .address p:hover{
+  color: black;
+}
+
+.contact-content .mail a{
+  color: blue;
+  text-decoration: none;
+}
+
+.contact-content .mail a:hover{
+  color: blueviolet;
+  background-color: rgba(231, 229, 229, 0.89);
+  transition: 0.5s;
 }

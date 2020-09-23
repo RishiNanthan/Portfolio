@@ -3,9 +3,7 @@ import Footer from '../Footer';
 import { Link } from 'react-router-dom';
 
 import profile_pic from './assets/profile.jpeg'
-import instagram from './assets/instagram.png';
-import linkedin from './assets/linkedin.png';
-import facebook from './assets/facebook.jpg';
+
 
 
 class Home extends Component{
@@ -57,9 +55,9 @@ class Home extends Component{
                     </center>
                     <div className="designation">SOFTWARE ENGINEERING STUDENT</div>
                     <div className="icons">
-                        <a href="/"><i className="fa fa-facebook icon"></i></a>
-                        <a href="/"><i className="fa fa-instagram icon"></i></a>
-                        <a href="/"><i className="fa fa-linkedin icon"></i></a>
+                        <a href="https://www.facebook.com/rishi.nanthan.7"><i className="fa fa-facebook icon"></i></a>
+                        <a href="https://www.instagram.com/rishi_nanthan_/"><i className="fa fa-instagram icon"></i></a>
+                        <a href="https://www.linkedin.com/in/rishi-nanthan-66402617b/"><i className="fa fa-linkedin icon"></i></a>
                     </div>
                 </div>
                 <div className="home-row-2">

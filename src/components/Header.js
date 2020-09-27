@@ -17,17 +17,17 @@ class Header extends Component{
                     <span className="role"> SOFTWARE ENGINEERING STUDENT </span>
                 </li>
                 <div className="right">
-                    <li className={ this.selected === "ABOUT ME" ? "selected": "" } >
-                        <Link to="/">ABOUT ME</Link>
+                    <li >
+                        <Link className={ this.selected === "ABOUT ME" ? "selected": "" } to="/">ABOUT ME</Link>
                     </li>
-                    <li className={ this.selected === "SKILLS" ? "selected": "" } >
-                        <Link to="/skills">SKILLS</Link>
+                    <li  >
+                        <Link className={ this.selected === "SKILLS" ? "selected": "" } to="/skills">SKILLS</Link>
                     </li>
-                    <li className={ this.selected === "PROJECTS" ? "selected": "" } >
-                        <Link to="projects">PROJECTS</Link>
+                    <li  >
+                        <Link className={ this.selected === "PROJECTS" ? "selected": "" } to="projects">PROJECTS</Link>
                     </li>
-                    <li className={ this.selected === "CONTACT" ? "selected end": "end" }>
-                        <Link to="contact">CONTACT</Link>
+                    <li >
+                        <Link className={ this.selected === "CONTACT" ? "selected end": "end" } to="contact">CONTACT</Link>
                     </li>
                 </div>
             </div>

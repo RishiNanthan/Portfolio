@@ -11,9 +11,31 @@ class Home extends Component{
         return (
             <div className="home">
                 <div className="home-row-1">
+                    
                     <div className="home-col-1">
                         
                     </div>
+
+                    <div className="home-col-3">
+                        <center><img src={profile_pic} className="profile-pic" alt="Profile"/></center>
+                        <div className="name">
+                            Rishi
+                        </div>
+                        <div className="name">
+                            Nanthan
+                        </div>
+                        <center>
+                            <div className="line">
+                            </div>
+                        </center>
+                        <div className="designation">SOFTWARE ENGINEERING STUDENT</div>
+                        <div className="icons">
+                            <a href="https://www.facebook.com/rishi.nanthan.7"><i className="fa fa-facebook icon"></i></a>
+                            <a href="https://www.instagram.com/rishi_nanthan_/"><i className="fa fa-instagram icon"></i></a>
+                            <a href="https://www.linkedin.com/in/rishi-nanthan-66402617b/"><i className="fa fa-linkedin icon"></i></a>
+                        </div>
+                    </div>
+
                     <div className="home-col-2">
                         <div className="content">
                             <div className="start">
@@ -41,25 +63,7 @@ class Home extends Component{
                         </div>
                     </div>
                 </div>
-                <div className="home-col-3">
-                    <center><img src={profile_pic} alt="Profile"/></center>
-                    <div className="name">
-                        Rishi
-                    </div>
-                    <div className="name">
-                        Nanthan
-                    </div>
-                    <center>
-                        <div className="line">
-                        </div>
-                    </center>
-                    <div className="designation">SOFTWARE ENGINEERING STUDENT</div>
-                    <div className="icons">
-                        <a href="https://www.facebook.com/rishi.nanthan.7"><i className="fa fa-facebook icon"></i></a>
-                        <a href="https://www.instagram.com/rishi_nanthan_/"><i className="fa fa-instagram icon"></i></a>
-                        <a href="https://www.linkedin.com/in/rishi-nanthan-66402617b/"><i className="fa fa-linkedin icon"></i></a>
-                    </div>
-                </div>
+                
                 <div className="home-row-2">
                     <Footer/>
                 </div>

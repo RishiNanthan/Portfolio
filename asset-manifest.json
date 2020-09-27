@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "//rishinanthan.github.io/Portfolio/static/css/main.b89fbc1d.chunk.css",
+    "main.js": "//rishinanthan.github.io/Portfolio/static/js/main.d62ebf16.chunk.js",
+    "main.js.map": "//rishinanthan.github.io/Portfolio/static/js/main.d62ebf16.chunk.js.map",
+    "runtime-main.js": "//rishinanthan.github.io/Portfolio/static/js/runtime-main.f138045d.js",
+    "runtime-main.js.map": "//rishinanthan.github.io/Portfolio/static/js/runtime-main.f138045d.js.map",
+    "static/js/2.abc48b42.chunk.js": "//rishinanthan.github.io/Portfolio/static/js/2.abc48b42.chunk.js",
+    "static/js/2.abc48b42.chunk.js.map": "//rishinanthan.github.io/Portfolio/static/js/2.abc48b42.chunk.js.map",
+    "index.html": "//rishinanthan.github.io/Portfolio/index.html",
+    "precache-manifest.bb7bb529739ce50fc9619986db9946a5.js": "//rishinanthan.github.io/Portfolio/precache-manifest.bb7bb529739ce50fc9619986db9946a5.js",
+    "service-worker.js": "//rishinanthan.github.io/Portfolio/service-worker.js",
+    "static/css/main.b89fbc1d.chunk.css.map": "//rishinanthan.github.io/Portfolio/static/css/main.b89fbc1d.chunk.css.map",
+    "static/js/2.abc48b42.chunk.js.LICENSE.txt": "//rishinanthan.github.io/Portfolio/static/js/2.abc48b42.chunk.js.LICENSE.txt",
+    "static/media/profile.jpeg": "//rishinanthan.github.io/Portfolio/static/media/profile.37352908.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f138045d.js",
+    "static/js/2.abc48b42.chunk.js",
+    "static/css/main.b89fbc1d.chunk.css",
+    "static/js/main.d62ebf16.chunk.js"
+  ]
+}

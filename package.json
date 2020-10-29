@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
 
+=======
+  "homepage": "/",
+>>>>>>> 904f01a0505299902026ef0d57f199dd5b3b8eda
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -36,7 +40,7 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
+  "devDependencies": {	
+    "gh-pages": "^3.1.0"	
   }
 }

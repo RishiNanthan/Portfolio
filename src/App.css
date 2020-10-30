@@ -296,7 +296,7 @@
 }
 
 .skillset .skillset-skills{
-  padding: 30px 30px 30px 30px;
+  padding: 30px;
 }
 
 
@@ -312,7 +312,6 @@
   margin-left: 20px;
   width: 40%;
   border: 2px solid green;
-  border-radius: 10px;
   margin-bottom: 30px;
   display: inline-block;
   box-shadow: 3px 3px 20px;
@@ -351,6 +350,7 @@
   background-color: white;
   margin: 5%;
   padding: 1%;
+  padding-bottom: 20px;
   width: 40%;
   min-width: 250px;
   float: left;
@@ -447,6 +447,9 @@
 
   .header li{
     padding-bottom: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: small;
   }
 
               /*            Home            */
@@ -493,6 +496,7 @@
     box-shadow: none;
   }
 
+
   .home-col-3:hover{
     box-shadow: none;
   }
@@ -507,6 +511,14 @@
     background-color: aliceblue;
   }
 
+  .project .project-image{
+    height: 120px;
+  }
+
+  .project .project-description{
+    font-size: small;
+  }
+
   .projects{
     background-color: rgb(174, 202, 226);
   }
@@ -517,15 +529,36 @@
     background-color: rgb(174, 202, 226);
   }
 
+  .skills .skillsets{
+    width: 90%;
+  }
+
   .skillset{
+    padding: 10px;
     background-color: aliceblue;
+  }
+
+  .skillset .skillset-title{
+    font-size: medium;
+  }
+
+  .skillset .skillset-skills{
+    padding: 10px;
   }
 
   .skill .percentage{
     width: 60%;
   }
 
+  .skill .name{
+    font-size: medium;
+    font-weight: bold;
+  }
+
   .contact{
+    padding-top: 100px;
     background-color: rgb(174, 202, 226);
   }
 }
+
+

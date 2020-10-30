@@ -18,8 +18,8 @@ export default class Project extends Component{
                 <p className="project-description"> &nbsp; &nbsp;{ this.description }</p>
                 <hr />
                 <div className="project-technologies">
-                    { this.technologies.map((tech) => {
-                        return <span className="project-technology">{ tech }</span>
+                    { this.technologies.map((tech, index) => {
+                        return <span className="project-technology" key={index}>{ tech }</span>
                     })}
                 </div>
             </div>
